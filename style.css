@@ -260,14 +260,10 @@ h1 {
     left: -820px;
 }
 
-.big-img :nth-child(2) {
-
-}
-
 .big-img :nth-child(3) {
     position: absolute;
     right: -820px;
-} */
+}
 
 footer {
     height: 580px;
@@ -285,6 +281,7 @@ footer p {
 }
 
 .circle ul {
-    display: flex;
-    flex-direction: row;
+    list-style: disc;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
