@@ -56,12 +56,12 @@ nav a:hover {
     padding-block: 10px;
 }
 
-.banner a {
+.banner a{
     color: rgb(42, 143, 238);
     text-decoration: none;
 }
 
-.banner a:hover {
+.banner a:hover{
     text-decoration: underline;
 }
 
