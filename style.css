@@ -56,6 +56,15 @@ nav a:hover {
     padding-block: 10px;
 }
 
+.banner a {
+    color: rgb(42, 143, 238);
+    text-decoration: none;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+}
+
 .hero {
     background-image: url(./assets/asset\ 0.jpeg);
     background-size: cover;
