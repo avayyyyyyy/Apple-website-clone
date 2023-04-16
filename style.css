@@ -247,13 +247,27 @@ h1 {
 
 
 .big-img {
-    background-image: url(./assets/asset\ 17.jpeg);
-    background-position: center;
-    background-size: cover;
-    filter: grayscale(10);
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
     margin-top: 20px;
-    height: 580px;
 }
+
+.big-img :nth-child(1) {
+    position: absolute;
+    left: -820px;
+}
+
+.big-img :nth-child(2) {
+
+}
+
+.big-img :nth-child(3) {
+    position: absolute;
+    right: -820px;
+} */
 
 footer {
     height: 580px;
@@ -268,4 +282,9 @@ footer p {
     font-size: 0.6rem;
     padding-inline: 163px;
     padding-block: 40px;
+}
+
+.circle ul {
+    display: flex;
+    flex-direction: row;
 }
