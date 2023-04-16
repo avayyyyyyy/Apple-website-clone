@@ -258,11 +258,17 @@ h1 {
 .big-img :nth-child(1) {
     position: absolute;
     left: -820px;
+    opacity: 50%;
+    z-index: -1;
 }
 
 .big-img :nth-child(3) {
     position: absolute;
     right: -820px;
+    opacity: 50%;
+    z-index: -1;
+
+
 }
 
 .foot-links-wrapper {
@@ -337,13 +343,13 @@ footer li {
 }
 
 .sub-ft a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: rgb(42, 143, 238);
     padding: 0;
     margin: 0;
 }
 
-.crt{
+.crt {
     display: flex;
     justify-content: space-between;
     align-items: center;
